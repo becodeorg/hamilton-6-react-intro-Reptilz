@@ -30,7 +30,7 @@ npm run test
 
 ## Thanks to
 
-⭐️ @BeCode
-⭐️ youtube@Web Dev Simplified
+- ⭐️ @BeCode
+- ⭐️ youtube@Web Dev Simplified
 
 ---
