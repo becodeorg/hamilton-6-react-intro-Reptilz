@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import Header from "./Header";
 import TodoList from "./TodoList";
 import { v4 as uuidv4 } from "uuid";
+import "./App.scss";
 
 //const pour le storage de la liste des todos
 const LOCAL_STORAGE_KEY = "todoApp.todos";
