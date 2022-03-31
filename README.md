@@ -24,7 +24,7 @@ npm run test
 👤 **Jordan Morlet**
 
 - Github: [@Jordan Morlet/Reptilz](https://github.com/Reptilz)
-- LinkedIn: [@Jordan Morlet(https://linkedin.com/in/jordan-morlet-18481619a)
+- LinkedIn: [@Jordan Morlet](https://linkedin.com/in/jordan-morlet-18481619a)
 
 
 
