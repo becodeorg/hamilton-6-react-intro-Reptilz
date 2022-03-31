@@ -26,8 +26,9 @@ npm run test
 - Github: [@Reptilz](https://github.com/Reptilz)
 - LinkedIn: [@jordan-morlet-18481619a](https://linkedin.com/in/jordan-morlet-18481619a)
 
-## Show your support
+## Thanks to
 
-Give a ⭐️ if this project helped you!
+⭐️ @BeCode
+⭐️ youtube@Web Dev Simplified
 
 ---
