@@ -23,12 +23,12 @@ npm run test
 
 👤 **Jordan Morlet**
 
-- Github: [@Reptilz](https://github.com/Reptilz)
-- LinkedIn: [@jordan-morlet-18481619a](https://linkedin.com/in/jordan-morlet-18481619a)
+- Github: [@Jordan Morlet/Reptilz](https://github.com/Reptilz)
+- LinkedIn: [@Jordan Morlet](https://linkedin.com/in/jordan-morlet-18481619a)
 
 ## Thanks to
 
-⭐️ @BeCode
-⭐️ youtube@Web Dev Simplified
+- ⭐️ @BeCode
+- ⭐️ youtube@Web Dev Simplified
 
 ---
