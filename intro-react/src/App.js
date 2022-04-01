@@ -58,10 +58,16 @@ function App() {
   return (
     <>
       <Header />
+      <input
+        id="input-add-todo"
+        ref={todoNameRef}
+        type="text"
+        placeholder="+  What needs to be done?"
+        onKeyPress={handleAddTodo}
+      />
       <TodoList todos={todos} toggleTodo={toggleTodo} />
       <div className="options">
         <div>{todos.filter((todo) => !todo.complete).length} items left</div>
-        <input ref={todoNameRef} type="text" onKeyPress={handleAddTodo} />
         <button onClick={handleClearTodos}>Completed</button>
       </div>
     </>

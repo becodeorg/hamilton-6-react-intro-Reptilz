@@ -56,7 +56,15 @@ body{
             }
         }
 
-        .options{
+        #input-add-todo{
+            margin: auto;
+            width: 94%;
+            font-size: 2rem;
+            padding: 20px;
+            opacity: .2;
+        }
+
+        .options {
             margin-top: 30px;
             padding-top: 20px;
             display: flex;
