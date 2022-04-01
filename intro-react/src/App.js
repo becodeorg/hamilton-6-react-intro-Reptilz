@@ -33,19 +33,21 @@ function App() {
 
   //function qui ajoute un todo à la liste
   function handleAddTodo(e) {
-    const name = todoNameRef.current.value;
-    if (name === "") return;
-    setTodos((previousTodos) => {
-      return [
-        ...previousTodos,
-        {
-          id: uuidv4(), //génère un id avec uuid
-          name: name,
-          complete: false,
-        },
-      ];
-    });
-    todoNameRef.current.value = null;
+    if (e.key === "Enter") {
+      const name = todoNameRef.current.value;
+      if (name === "") return;
+      setTodos((previousTodos) => {
+        return [
+          ...previousTodos,
+          {
+            id: uuidv4(), //génère un id avec uuid
+            name: name,
+            complete: false,
+          },
+        ];
+      });
+      todoNameRef.current.value = null;
+    }
   }
 
   //function qui clear la liste des todos quand l'état de la checkbox === true (!todo.complete)
@@ -57,10 +59,11 @@ function App() {
     <>
       <Header />
       <TodoList todos={todos} toggleTodo={toggleTodo} />
-      <input ref={todoNameRef} type="text" />
-      <button onClick={handleAddTodo}>Add Todo</button>
-      <button onClick={handleClearTodos}>Completed</button>
-      <div>{todos.filter((todo) => !todo.complete).length} items left</div>
+      <div className="options">
+        <div>{todos.filter((todo) => !todo.complete).length} items left</div>
+        <input ref={todoNameRef} type="text" onKeyPress={handleAddTodo} />
+        <button onClick={handleClearTodos}>Completed</button>
+      </div>
     </>
   );
 }

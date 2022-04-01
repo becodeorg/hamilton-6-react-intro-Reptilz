@@ -8,7 +8,7 @@ export default function Todo({ todo, toggleTodo }) {
     toggleTodo(todo.id);
   }
 
-  //change la couleur du backgroud si une checkbox est cochée
+  //change la couleur du backgroud d'un todo s'il est coché
   function handleChangeStyle() {
     if (todo.complete === false) {
       setStyle("newStyle");
