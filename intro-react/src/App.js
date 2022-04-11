@@ -67,8 +67,12 @@ function App() {
       />
       <TodoList todos={todos} toggleTodo={toggleTodo} />
       <div className="options">
-        <div>{todos.filter((todo) => !todo.complete).length} items left</div>
-        <button onClick={handleClearTodos}>Completed</button>
+        <div className="items-left">
+          {todos.filter((todo) => !todo.complete).length} items left
+        </div>
+        <button id="btn-completed" onClick={handleClearTodos}>
+          Completed
+        </button>
       </div>
     </>
   );
